@@ -3447,6 +3447,17 @@ body {
         border-bottom: 1px solid var(--light-gray);
     }
     
+    /* Reorder nav items on mobile: move ONS TEAM above CONTACT */
+    .nav-menu li:nth-child(1) { order: 1; } /* HOME */
+    .nav-menu li:nth-child(2) { order: 2; } /* BEHANDELINGEN */
+    .nav-menu li:nth-child(3) { order: 3; } /* SMILE MAKEOVER */
+    .nav-menu li:nth-child(4) { order: 8; } /* ONS TEAM - moved down */
+    .nav-menu li:nth-child(5) { order: 4; } /* MONDHYGIËNISTE */
+    .nav-menu li:nth-child(6) { order: 5; } /* INSCHRIJVEN */
+    .nav-menu li:nth-child(7) { order: 6; } /* TARIEVEN */
+    .nav-menu li:nth-child(8) { order: 7; } /* MONDVERZORGING SHOP */
+    .nav-menu li:nth-child(9) { order: 9; } /* CONTACT */
+    
     .nav-menu a {
         display: block;
         padding: var(--space-md) 0;
