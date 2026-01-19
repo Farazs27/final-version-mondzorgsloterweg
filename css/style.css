@@ -3428,7 +3428,7 @@ body {
         backdrop-filter: blur(60px) saturate(200%) !important;
         -webkit-backdrop-filter: blur(60px) saturate(200%) !important;
         flex-direction: column;
-        padding: 8px 14px !important;
+        padding: 6px 14px !important;
         gap: 0;
         transition: right var(--duration-normal) var(--ease-out);
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4),
@@ -3454,10 +3454,11 @@ body {
     
     .nav-menu a {
         display: block;
-        padding: 4px 10px !important;
+        padding: 2px 10px !important;
         font-size: 11px !important;
         color: rgba(255, 255, 255, 0.85) !important;
         letter-spacing: 0.03em;
+        line-height: 1.3;
     }
     
     .nav-menu a:hover,
