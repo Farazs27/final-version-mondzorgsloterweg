@@ -3420,37 +3420,37 @@ body {
     
     .nav-menu {
         position: fixed;
-        top: 15px;
+        top: 12px;
         right: -100%;
-        width: min(240px, calc(100vw - 40px));
-        max-height: calc(100vh - 30px);
-        background: rgba(255, 255, 255, 0.4) !important;
-        backdrop-filter: blur(30px) saturate(200%) !important;
-        -webkit-backdrop-filter: blur(30px) saturate(200%) !important;
+        width: min(200px, calc(100vw - 30px));
+        max-height: calc(100vh - 24px);
+        background: rgba(255, 255, 255, 0.2) !important;
+        backdrop-filter: blur(40px) saturate(220%) !important;
+        -webkit-backdrop-filter: blur(40px) saturate(220%) !important;
         flex-direction: column;
-        padding: 45px 18px 18px;
+        padding: 35px 14px 14px;
         gap: 0;
         transition: right var(--duration-normal) var(--ease-out);
-        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12),
-                    inset 0 1px 0 rgba(255, 255, 255, 0.6) !important;
-        border: 1px solid rgba(255, 255, 255, 0.5) !important;
-        border-radius: 20px !important;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08),
+                    inset 0 1px 0 rgba(255, 255, 255, 0.4) !important;
+        border: 1px solid rgba(255, 255, 255, 0.3) !important;
+        border-radius: 16px !important;
         z-index: 999;
         overflow-y: auto;
     }
     
     .nav-menu.active {
-        right: var(--space-md);
+        right: 12px;
     }
     
     .nav-menu li {
-        border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+        border-bottom: 1px solid rgba(200, 200, 200, 0.2);
     }
     
     .nav-menu a {
         display: block;
-        padding: 10px 0;
-        font-size: 11px;
+        padding: 8px 0;
+        font-size: 10px;
     }
     
     .hamburger {
