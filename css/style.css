@@ -3422,13 +3422,13 @@ body {
         position: fixed;
         top: 70px;
         right: -100%;
-        width: 160px !important;
+        width: 200px !important;
         max-height: auto;
         background: rgba(30, 30, 35, 0.75) !important;
         backdrop-filter: blur(60px) saturate(200%) !important;
         -webkit-backdrop-filter: blur(60px) saturate(200%) !important;
         flex-direction: column;
-        padding: 12px 10px !important;
+        padding: 10px 12px !important;
         gap: 0;
         transition: right var(--duration-normal) var(--ease-out);
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4),
@@ -3454,7 +3454,7 @@ body {
     
     .nav-menu a {
         display: block;
-        padding: 6px 8px !important;
+        padding: 5px 10px !important;
         font-size: 9px !important;
         color: rgba(255, 255, 255, 0.85) !important;
         letter-spacing: 0.03em;
