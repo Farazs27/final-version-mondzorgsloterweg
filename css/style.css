@@ -3422,19 +3422,19 @@ body {
         position: fixed;
         top: 20px;
         right: -100%;
-        width: min(360px, calc(100vw - 40px));
+        width: min(300px, calc(100vw - 40px));
         max-height: calc(100vh - 40px);
         background: rgba(255, 255, 255, 0.9) !important;
         backdrop-filter: blur(40px) saturate(180%) !important;
         -webkit-backdrop-filter: blur(40px) saturate(180%) !important;
         flex-direction: column;
-        padding: 80px 32px 32px;
+        padding: 60px 24px 24px;
         gap: 0;
         transition: right var(--duration-normal) var(--ease-out);
         box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2),
                     inset 0 1px 0 rgba(255, 255, 255, 1) !important;
         border: 2px solid rgba(255, 255, 255, 0.8) !important;
-        border-radius: 32px !important;
+        border-radius: 24px !important;
         z-index: 999;
         overflow-y: auto;
     }
@@ -3449,8 +3449,8 @@ body {
     
     .nav-menu a {
         display: block;
-        padding: var(--space-md) 0;
-        font-size: 14px;
+        padding: 12px 0;
+        font-size: 12px;
     }
     
     .hamburger {
