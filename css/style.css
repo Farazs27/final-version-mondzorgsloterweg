@@ -5008,11 +5008,13 @@ body {
 @media (max-width: 768px) {
     .logo-marquee {
         padding: 14px 0;
+        overflow: hidden;
     }
     
     .marquee-track {
         gap: 24px;
-        animation-duration: 30s;
+        animation: marquee 30s linear infinite !important;
+        display: flex !important;
     }
     
     .marquee-logo {
@@ -5032,11 +5034,13 @@ body {
 @media (max-width: 480px) {
     .logo-marquee {
         padding: 12px 0;
+        overflow: hidden;
     }
     
     .marquee-track {
         gap: 20px;
-        animation-duration: 25s;
+        animation: marquee 25s linear infinite !important;
+        display: flex !important;
     }
     
     .marquee-logo {
